@@ -1,13 +1,13 @@
 # Web-Proxy
-single-threaded http proxy that passes requests and data between a web client and server
+Single-threaded http proxy that passes requests and data between a web client and server
 
-Usage:
-
+### Usage:
 Run the proxy in the terminal with the following command:
     ./proxy <port>
     where <port> is the port number the proxy should listen on. Specify a port number outside of the reserved range (1-1024).
     
 Request a page using telnet:
+
     telnet localhost <port>
     Trying 127.0.0.1...
     Connected to localhost.localdomain (127.0.0.1).
@@ -15,6 +15,7 @@ Request a page using telnet:
     GET http://www.stanford.edu/ HTTP/1.0
 
 HTTP request line format: 
+
     <request-method-name> <request-URI> <HTTP/version>
     <---Empty line--->
     
