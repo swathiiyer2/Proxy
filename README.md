@@ -6,7 +6,7 @@ Run the proxy in the terminal with the following command:
 
     ./proxy <port>
     
-Specify a port number outside of the reserved range (1-1024).
+Specify a port number outside of the reserved range (1-1024) for the proxy to listen on. 
     
 Request a page using telnet:
 
