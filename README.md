@@ -3,8 +3,10 @@ Single-threaded http proxy that passes requests and data between a web client an
 
 ### Usage:
 Run the proxy in the terminal with the following command:
+
     ./proxy <port>
-    where <port> is the port number the proxy should listen on. Specify a port number outside of the reserved range (1-1024).
+    
+where <port> is the port number the proxy should listen on. Specify a port number outside of the reserved range (1-1024).
     
 Request a page using telnet:
 
