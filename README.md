@@ -1,4 +1,4 @@
-# Web-Proxy
+#Proxy
 Single-threaded http proxy that passes requests and data between a web client and server
 
 ### Usage:
