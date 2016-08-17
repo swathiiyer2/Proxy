@@ -1,7 +1,7 @@
 #Proxy
 Single-threaded http proxy that passes requests and data between a web client and server
 
-### Usage:
+## Usage:
 Run the proxy in the terminal with the following command:
 
     ./proxy <port>
@@ -20,6 +20,7 @@ HTTP request line format:
 
     <request-method-name> <request-URI> <HTTP/version>
     <---Empty line--->
-    
+ 
+##Specs   
 Supports GET and HEAD requests. Does not support https. URI must have absolute path and end with "/".
 Proxy returns the headers and HTML of the requested page. 
