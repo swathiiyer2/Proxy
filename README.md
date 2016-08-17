@@ -1,7 +1,7 @@
 #Proxy
 Single-threaded http proxy that passes requests and data between a web client and server
 
-## Usage:
+## Usage
 Run the proxy in the terminal with the following command:
 
     ./proxy <port>
