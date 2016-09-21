@@ -2,6 +2,10 @@
 Single-threaded http proxy that passes requests and data between a web client and server
 
 ## Usage
+Compile using
+    
+    gcc -o proxy main.cpp
+
 Run the proxy in the terminal with the following command:
 
     ./proxy <port>
